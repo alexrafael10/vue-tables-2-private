@@ -36,7 +36,9 @@ var _default = {
         _this.$emit("intersect");
       }
     }, {
-      root: this.$parent.$el.querySelector('.table-responsive')
+      root: this.$parent.$el.querySelector('.table-responsive'),
+      rootMargin: "10px" //Alex: Add a small margin, seems to fix the issue were the observer stops working
+
     });
     this.observer.observe(this.$el);
   },

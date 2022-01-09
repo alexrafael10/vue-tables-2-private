@@ -1,7 +1,7 @@
 {
-  "name": "vue-tables-2-premium",
+  "name": "@alexrafael10/vue-tables-2",
   "description": "Vue.js 2 grid components",
-  "version": "2.3.6",
+  "version": "2.3.7",
   "keywords": [
     "vue2",
     "vuex",
